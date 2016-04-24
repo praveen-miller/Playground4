@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="40dp"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="140dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.praveendandu.playground4.MainActivity">
+
+    <TextView
+        android:text="@string/baseText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Me"
+        android:id="@+id/button"
+        android:layout_below="@+id/textView"/>
+</RelativeLayout>
